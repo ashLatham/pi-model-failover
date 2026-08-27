@@ -1,0 +1,28 @@
+{
+  "name": "pi-model-failover",
+  "version": "1.0.0",
+  "description": "Pi extension that provides failover to an alternative provider/model.",
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashLatham/pi-model-failover.git"
+  },
+  "homepage": "https://github.com/ashLatham/pi-model-failover",
+  "bugs": {
+    "url": "https://github.com/ashLatham/pi-model-failover/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./model-failover.ts"
+    ]
+  },
+  "files": [
+    "model-failover.ts",
+    "model-failover.example.json",
+    "README.md"
+  ]
+}

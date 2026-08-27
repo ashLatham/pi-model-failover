@@ -1,0 +1,4 @@
+{
+  "failover": { "provider": "provider_name", "model": "modelID" },
+  "patterns": "transient"
+}
